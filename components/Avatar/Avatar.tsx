@@ -7,12 +7,7 @@ interface Props {
 }
 
 const Avatar: React.FC<Props> = ({ ...props }) => {
-  return (
-    <div>
-      <p>Avatar</p>
-      <Image {...props} height={500} width={500} />
-    </div>
-  );
+  return <Image {...props} height={500} width={500} />;
 };
 
 export default Avatar;
