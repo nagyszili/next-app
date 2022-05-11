@@ -1,5 +1,8 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
+
+import Avatar from "././../components/avatar";
 
 export default function Home() {
   return (
@@ -20,6 +23,7 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h2>
+        <Avatar src="/images/avatar.jpeg" alt="Avatar" />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
