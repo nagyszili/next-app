@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
+import Layout from "../../components/Layout";
 
 export default function FirstPost() {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>First Post</title>
         <link rel="icon" href="/favicon.ico" />
@@ -23,6 +24,6 @@ export default function FirstPost() {
           <a>Home!</a>
         </Link>
       </h2>
-    </div>
+    </Layout>
   );
 }
